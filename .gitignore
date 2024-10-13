@@ -1,0 +1,33 @@
+# Ignore environment variables file
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.egg-info/
+.installed.cfg
+*.egg
+
+# Pytest
+.cache
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Miscellaneous
+*.DS_Store
+*.sqlite3
