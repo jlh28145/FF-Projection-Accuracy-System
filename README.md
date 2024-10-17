@@ -57,6 +57,10 @@ The objective of the Data Collection and Preparation phase is to systematically 
 Key outcomes for this phase include:
 
 - [ ] Automated Data Retrieval: Set up API integrations or scraping solutions to extract player prediction data and actual performance statistics from all platforms.
+   -  [x] ESPN
+   -  [x] FantasyPros
+   -  [x] Sleeper
+   -  [] Yahoo
 - [ ] Data Standardization: Normalize player names across platforms using string manipulation, fuzzy matching, and metadata checks (team, position) to ensure accurate cross-platform comparisons.
 - [ ] Data Cleaning: Identify and resolve inconsistencies such as missing data, incorrect metadata (team or position mismatches), and incomplete player records to ensure the reliability of the final dataset.
 - [ ] Data Consolidation: Combine the normalized and cleaned data from all platforms into a unified dataset that can be used for performance analysis.
@@ -278,6 +282,7 @@ These KPIs are essential to ensure that the system delivers on its primary goal:
     │                         `1.0-jqp-initial-data-exploration`.
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    │   └── references.md  <- Detailed list of references and links
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
