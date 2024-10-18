@@ -60,7 +60,7 @@ Key outcomes for this phase include:
    -  [x] ESPN
    -  [x] FantasyPros
    -  [x] Sleeper
-   -  [] Yahoo
+   -  [] CBS Sports
 - [ ] Data Standardization: Normalize player names across platforms using string manipulation, fuzzy matching, and metadata checks (team, position) to ensure accurate cross-platform comparisons.
 - [ ] Data Cleaning: Identify and resolve inconsistencies such as missing data, incorrect metadata (team or position mismatches), and incomplete player records to ensure the reliability of the final dataset.
 - [ ] Data Consolidation: Combine the normalized and cleaned data from all platforms into a unified dataset that can be used for performance analysis.
